@@ -1,18 +1,17 @@
+ 🚀 Live Features
 
-🚀 Live Features
-
-* 🏠 Create, edit, delete property listings (CRUD functionality)
+* 🏠 Create, edit, and delete property listings (Full CRUD functionality)
 * 🗺️ Interactive maps with real-time location rendering
 * 🔐 Secure user authentication & authorization
-* 🖼️ Image upload & cloud storage integration
+* 🖼️ Image upload with cloud storage integration
 * ⭐ Add and manage reviews
 * ✅ Server-side data validation
-* 💬 Flash messages & centralized error handling
-* 📱 Responsive UI design
+* 💬 Flash messages with centralized error handling
+* 📱 Fully responsive UI design
 
 ---
 
-🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 💻 Backend
 
@@ -30,7 +29,7 @@
 * CSS3
 * Bootstrap
 
-### ☁️ Cloud & APIs
+☁️ Cloud & APIs
 
 * Cloudinary (Image Storage)
 * Mapbox API (Maps & Geocoding)
@@ -46,8 +45,10 @@
 ---
 
 🗂️ Project Architecture
-The application follows MVC (Model-View-Controller) architecture:
-```
+
+The application follows **MVC (Model-View-Controller)** architecture:
+
+```bash
 Wanderlust/
 │
 ├── models/        # Database schemas (Listing, Review, User)
@@ -58,6 +59,7 @@ Wanderlust/
 ├── middleware/    # Custom middleware
 └── app.js         # Entry point
 ```
+
 ---
 
 🔐 Authentication & Authorization
@@ -74,7 +76,7 @@ Wanderlust/
 
 * Integrated **Mapbox API**
 * Geocoding converts location names into coordinates
-* Dynamic rendering of interactive property maps
+* Dynamically renders interactive property maps
 * Enhances user experience with real-time location visualization
 
 ---
@@ -83,7 +85,7 @@ Wanderlust/
 
 * Integrated **Cloudinary**
 * Users can upload property images
-* Images stored securely in cloud
+* Images stored securely in the cloud
 * Optimized media handling and storage management
 
 ---
@@ -91,12 +93,13 @@ Wanderlust/
 ✅ Data Validation & Security
 
 * Implemented **Joi server-side validation**
-* Mongoose schema validation
+* Applied Mongoose schema validation
 * Prevents invalid or malicious inputs
-* Centralized error handling middleware
+* Centralized error-handling middleware
 * Flash messaging for user feedback
 
 ---
+
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
@@ -112,11 +115,11 @@ cd Wanderlust-Airbnb-clone
 npm install
 ```
 
-3️⃣ Environment Variables
+3️⃣ Configure Environment Variables
 
-Create a `.env` file and add:
+Create a `.env` file in the root directory and add:
 
-```
+```env
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_key
 CLOUDINARY_SECRET=your_secret
@@ -133,27 +136,29 @@ SECRET=session_secret
 node app.js
 ```
 
-or (if using nodemon)
+or (recommended)
 
 ```bash
 nodemon app.js
 ```
 
- 📈 Learning Outcomes
+---
+
+📈 Learning Outcomes
 
 * Built a scalable full-stack application
-* Implemented secure authentication with Passport.js
+* Implemented secure authentication using Passport.js
 * Integrated third-party APIs (Mapbox, Cloudinary)
-* Applied MVC architecture in a real-world project
-* Strengthened backend validation and error handling skills
+* Applied MVC architecture in a production-level project
+* Strengthened backend validation and structured error handling
 
 ---
 
 🎯 Future Improvements
 
 * Add booking functionality
-* Implement payment gateway integration
-* Add user profile management
+* Integrate payment gateway
+* Implement user profile management
 * Improve search & filtering system
 * Deploy on cloud platform (Render / AWS / Railway)
 
@@ -161,9 +166,12 @@ nodemon app.js
 
 👨‍💻 Author
 
-Shantanu Raj
+**Shantanu Raj**
 Full-Stack Developer
+
 📧 [rajshantanu2332005@gmail.com](mailto:rajshantanu2332005@gmail.com)
-🔗 LinkedIn: linkedin.com/in/shantanuraj23
+🔗 [https://linkedin.com/in/shantanuraj23](https://linkedin.com/in/shantanuraj23)
 
 ---
+
+
