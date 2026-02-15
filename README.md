@@ -47,15 +47,17 @@
 
 🗂️ Project Architecture
 The application follows MVC (Model-View-Controller) architecture:
+```
 Wanderlust/
 │
-├── models/        → Database schemas (Listing, Review, User)
-├── routes/        → Express routes
-├── controllers/   → Business logic
-├── views/         → EJS templates
-├── public/        → Static files (CSS, JS)
-├── middleware/    → Custom middleware
-└── app.js         → Entry point
+├── models/        # Database schemas (Listing, Review, User)
+├── routes/        # Express routes
+├── controllers/   # Business logic
+├── views/         # EJS templates
+├── public/        # Static files (CSS, JS)
+├── middleware/    # Custom middleware
+└── app.js         # Entry point
+```
 ---
 
 🔐 Authentication & Authorization
