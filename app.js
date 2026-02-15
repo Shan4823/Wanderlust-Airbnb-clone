@@ -22,6 +22,7 @@ const User = require("./models/user.js");
 const listingRouter = require("./routes/listing.js"); 
 const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
+const wrapAsync = require("./utils/wrapAsync.js");
 
 
 const dburl = process.env.ATLASDB_URL;
@@ -103,6 +104,9 @@ app.use((req, res, next) => {
 //     res.send(registeredUser);
 // });
 
+app.get("/", (req, res) => {
+   res.redirect("/listings");
+});
 
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
